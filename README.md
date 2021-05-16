@@ -1,7 +1,9 @@
+> Work in progress.
+
 # Minimal GNU/Linux
 Minimal GNU/Linux distribution for x86-64 from scratch.
 
-This repository shows you how to build your own GNU/linux system. It is comparable to [linux from scratch (LFS)](), but the main difference is that this build process follows the linux boot process. Along the way after each functionality is added the system is booted to test it. In this way you can see the results of your hard work earlier in the process. Something that I was missing from LFS.
+This repository shows you how to build your own GNU/Linux system. It is comparable to [linux from scratch (LFS)](https://www.linuxfromscratch.org/), but the main difference is that this build process follows the linux boot process. Along the way, after each functionality is added, the system is booted to test it. In this way you can see the results of your hard work earlier in the process, something that I was missing from LFS.
 
 ## Features
 * Bash shell
@@ -53,7 +55,7 @@ SIZE    USE
 
 ## Development
 ### Preliminary knowledge
-You should be familiar with the GNU/Linux system and especially compilation process of C applications. You can find some of this information on the [GNU/Linux basics](GNU_Linux_basics.md) page.
+You should be familiar with the GNU/Linux system and especially the compilation process of C applications (_gcc_, _ld_, _make_). You can find some of this information on the [GNU/Linux basics](GNU_Linux_basics.md) page.
 
 ### Tartget architecture
 * x86-64 with UEFI firmware.
@@ -63,7 +65,7 @@ You should be familiar with the GNU/Linux system and especially compilation proc
 
 ## Steps
 1. [Create and partition disk drive](1_prepare_disk_drive.md) or [image](1_create_disk_image.md).
-2. [Install GRUB bootloader](2_install_grub_loader.md).
+2. [Install GRUB bootloader](2_install_grub_bootloader.md).
 3. [Install Linux kernel](3_install_linux_kernel.md).
 4. [Build static system](4_build_static_system.md).
 5. [Start system](5_start_system.md).
